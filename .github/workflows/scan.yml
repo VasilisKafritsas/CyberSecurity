@@ -8,7 +8,7 @@ on:
         docker_image:
           description: 'The Docker image to scan'
           required: true
-          default: 'fetch:latest'
+          default: 'docker/scout-cli:44d8dca'
 
 # env:
 #   REGISTRY: ghcr.io
