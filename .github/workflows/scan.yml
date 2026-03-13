@@ -8,7 +8,7 @@ on:
         docker_image:
           description: 'The Docker image to scan'
           required: true
-          default: 'docker/scout-cli:44d8dca'
+          default: 'rabbitmq:management-alpine'
 
 # env:
 #   REGISTRY: ghcr.io
